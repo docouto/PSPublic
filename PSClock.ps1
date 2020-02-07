@@ -1,0 +1,1 @@
+1..1000 | % {$now =get-date -Format "hh:mm:ss.fff dddd MMMM d, yyyy";Write-Host $now -ForegroundColor Green; Start-Sleep -Milliseconds 500;cls}
