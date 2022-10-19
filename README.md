@@ -11,8 +11,8 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 ## How to copy their content for later execution or reading 
 
-````
-fora(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/docouto/PSPublic/master/ScriptName.ps1') | clip
+```
+(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/docouto/PSPublic/master/ScriptName.ps1') | clip
 
 get-clippboard OR crtl+V
 ```
